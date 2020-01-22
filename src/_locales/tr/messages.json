@@ -1,0 +1,983 @@
+{
+  "common_domain": {
+    "message": "Alan adı"
+  },
+  "common_url": {
+    "message": "URL"
+  },
+  "configuration_export": {
+    "message": "yapılandırmayı kaydet"
+  },
+  "configuration_import": {
+    "message": "yapılandırma aç"
+  },
+  "enum_value_block_no": {
+    "message": "engelleme"
+  },
+  "enum_value_block_yes": {
+    "message": "engelle"
+  },
+  "enum_value_enable_no": {
+    "message": "devre dışı"
+  },
+  "enum_value_enable_yes": {
+    "message": "etkin"
+  },
+  "enum_value_no": {
+    "message": "hayır"
+  },
+  "enum_value_no_preference": {
+    "message": "tercih yok"
+  },
+  "enum_value_yes": {
+    "message": "evet"
+  },
+  "enterprise_only_label": {
+    "message": "yalnızca Firefox ESR ile çalışır"
+  },
+  "explanation_about_policies": {
+    "message": "“policies.json” Dosyasındaki tüm etkin politikaları ve hataları görüntülemek için adres çubuğuna about:policies yazabilirsiniz"
+  },
+  "explanation_headline_usage": {
+    "message": "Kullanım"
+  },
+  "explanation_intro": {
+    "message": "Düğmeye tıklandığında bir kod oluşturulur. Bu kod, dağıtım dizininde saklanması gereken “policies.json” dosyasında saklanmalıdır."
+  },
+  "explanation_intro_linux": {
+    "message": "Firefox'un bulunduğu dizinde “distribution” adlı bir dizin oluşturun ve “policies.json” dosyasını buraya yerleştirin."
+  },
+  "explanation_intro_macos": {
+    "message": "Firefox.app/Contents/Resources/ içinde “distribution” adlı bir dizin oluşturun ve “policies.json” dosyasını buraya yerleştirin."
+  },
+  "explanation_intro_windows": {
+    "message": "firefox.exe dosyasının bulunduğu “distribution” adlı bir dizin oluşturun ve “policies.json” dosyasını buraya yerleştirin"
+  },
+  "extension_description": {
+    "message": "Firefox için Kurumsal Politikalar oluşturur."
+  },
+  "extension_name": {
+    "message": "Kurumsal Politika Oluşturucu"
+  },
+  "filter_field": {
+    "message": "Politikalara filtre uygula…"
+  },
+  "generate_button": {
+    "message": "Politikaları oluştur"
+  },
+  "invalid_url_label": {
+    "message": "geçersiz URL"
+  },
+  "link_download": {
+    "message": "policies.json indir"
+  },
+  "link_learn_more": {
+    "message": "daha fazla bilgi"
+  },
+  "link_load_configuration": {
+    "message": "yapılandırma yükle"
+  },
+  "link_save_configuration": {
+    "message": "yapılandırma kaydet"
+  },
+  "link_select_all": {
+    "message": "tümünü seç"
+  },
+  "list_dialog_btn_cancel": {
+    "message": "İptal"
+  },
+  "list_dialog_no_saved_configurations": {
+    "message": "Henüz hiçbir yapılandırma kaydedilmedi."
+  },
+  "list_dialog_window_title": {
+    "message": "Yapılandırma Yükle"
+  },
+  "list_table_name": {
+    "message": "Ad"
+  },
+  "list_table_time": {
+    "message": "Zaman"
+  },
+  "lock_preference": {
+    "message": "Tercihi değiştirilmeye karşı koru"
+  },
+  "mandatory_label": {
+    "message": "zorunlu"
+  },
+  "policy_category_block_access": {
+    "message": "Erişimi Engelle"
+  },
+  "policy_category_disable_features": {
+    "message": "Özellikleri Devredışı Bırak"
+  },
+  "policy_category_customization": {
+    "message": "Özelleştirme"
+  },
+  "policy_category_network": {
+    "message": "Ağ"
+  },
+  "policy_category_privacy": {
+    "message": "Gizlilik"
+  },
+  "policy_category_security": {
+    "message": "Güvenlik"
+  },
+  "policy_category_update_and_data": {
+    "message": "Güncellemeler ve Veri Toplama"
+  },
+  "policy_category_others": {
+    "message": "Diğer Politikalar"
+  },
+  "policy_description_AppUpdateURL": {
+    "message": "Firefox güncellemeleri için farklı sunucu URL'si"
+  },
+  "policy_description_Authentication": {
+    "message": "Kimlik doğrulamayı destekleyen siteler"
+  },
+  "policy_description_Authentication_additional_note": {
+    "message": "Firefox 71 ve üzeri için ayar kilitleme seçeneği. Önceki versiyonlarda daima korunur."
+  },
+  "policy_description_Authentication_AllowNonFQDN": {
+    "message": "FQDNs (tam alan adları) barındırmayanlar için SPNEGO veya NTLM için izin ver"
+  },
+  "policy_description_Authentication_AllowNonFQDN_NTLM": {
+    "message": "FQDN olmadığında her zaman NTLM için izin ver"
+  },
+  "policy_description_Authentication_AllowNonFQDN_SPNEGO": {
+    "message": "FQDN olmadığında her zaman SPNEGO için izin ver"
+  },
+  "policy_description_Authentication_Delegated": {
+    "message": "Yetki"
+  },
+  "policy_description_Authentication_NTLM": {
+    "message": "NTLM"
+  },
+  "policy_description_Authentication_SPNEGO": {
+    "message": "SPNEGO"
+  },
+  "policy_description_BlockAboutAddons": {
+    "message": "Eklenti yöneticisine erişimi engelle (about:addons)"
+  },
+  "policy_description_BlockAboutConfig": {
+    "message": "Tarayıcı yapılandırmasına erişimi engelle (about:config)"
+  },
+  "policy_description_BlockAboutProfiles": {
+    "message": "İçerik içi profil yöneticisine erişimi engelle (about:profiles)"
+  },
+  "policy_description_BlockAboutSupport": {
+    "message": "Sorun giderme bilgileri sayfasına erişimi engelle (about:support)"
+  },
+  "policy_description_Bookmarks": {
+    "message": "Varsayılan yer işaretleri oluştur"
+  },
+  "policy_description_Bookmarks_Favicon": {
+    "message": "Favicon"
+  },
+  "policy_description_Bookmarks_Folder": {
+    "message": "Klasör"
+  },
+  "policy_description_Bookmarks_Placement": {
+    "message": "Yerleşim"
+  },
+  "policy_description_Bookmarks_Placement_Menu": {
+    "message": "Yer imleri Menüsü"
+  },
+  "policy_description_Bookmarks_Placement_Toolbar": {
+    "message": "Yer imleri Araç çubuğu"
+  },
+  "policy_description_Bookmarks_Title": {
+    "message": "Başlık"
+  },
+  "policy_description_CaptivePortal": {
+    "message": "Sabit portal desteğini etkinleştirme veya devre dışı bırakma"
+  },
+  "policy_description_CaptivePortal_options_false": {
+    "message": "Sabit portal desteğini devre dışı bırak"
+  },
+  "policy_description_CaptivePortal_options_true": {
+    "message": "Sabit portal desteğini etkinleştir"
+  },
+  "policy_description_Certificates": {
+    "message": "Sertifikaları yapılandır"
+  },
+  "policy_description_Certificates_ImportEnterpriseRoots": {
+    "message": "sertifikaları sistem sertifika deposundan oku (yalnızca Windows ve macOS)"
+  },
+  "policy_description_Certificates_ImportEnterpriseRoots_false": {
+    "message": "sistem sertifika deposundan sertifika alma"
+  },
+  "policy_description_Certificates_ImportEnterpriseRoots_true": {
+    "message": "sistem sertifika deposundan sertifika al"
+  },
+  "policy_description_Certificates_Install": {
+    "message": "Sertifikaları al (Windows: %USERNAME\\AppData\\Local\\Mozilla\\Certificates veya %USERNAME\\AppData\\Roaming\\Mozilla\\Certificates, macOS: /Library/Application Support/Mozilla/Certificates veya ~/Library/Application Support/Mozilla/Certificates, Linux: /usr/lib/mozilla/certificates, /usr/lib64/mozilla/certificates veya ~/.mozilla/certificates)"
+  },
+  "policy_description_Certificates_Install_Value": {
+    "message": ".der veya .pem dosyasının yolu"
+  },
+  "policy_description_Cookies": {
+    "message": "Websitelerin çerez kullanımına izin verme veya reddetme"
+  },
+  "policy_description_Cookies_AcceptThirdParty": {
+    "message": "“Üçüncü taraf çerez ve site verileri kabul etme” için varsayılan değer"
+  },
+  "policy_description_Cookies_AcceptThirdParty_always": {
+    "message": "her zaman"
+  },
+  "policy_description_Cookies_AcceptThirdParty_from_visited": {
+    "message": "ziyaret edilen"
+  },
+  "policy_description_Cookies_AcceptThirdParty_never": {
+    "message": "asla"
+  },
+  "policy_description_Cookies_Allow": {
+    "message": "Çerezlere her zaman izin verilen alan adları"
+  },
+  "policy_description_Cookies_Allow_Domain": {
+    "message": "Alan adı"
+  },
+  "policy_description_Cookies_Block": {
+    "message": "Çerezlerin her zaman engellendiği alan adları"
+  },
+  "policy_description_Cookies_Block_Domain": {
+    "message": "Alan adı"
+  },
+  "policy_description_Cookies_Default": {
+    "message": "“Web sitelerinden çerezleri ve site verilerini kabul etme” için varsayılan değer"
+  },
+  "policy_description_Cookies_Default_false": {
+    "message": "çerezleri kabul etme"
+  },
+  "policy_description_Cookies_Default_true": {
+    "message": "çerezlere izin ver"
+  },
+  "policy_description_Cookies_ExpireAtSessionEnd": {
+    "message": "Çerezleri şu kadar sakla…"
+  },
+  "policy_description_Cookies_ExpireAtSessionEnd_false": {
+    "message": "… süresi dolana kadar"
+  },
+  "policy_description_Cookies_ExpireAtSessionEnd_true": {
+    "message": "… Firefox kapatılana kadar"
+  },
+  "policy_description_Cookies_RejectTracker": {
+    "message": "İzleme çerezlerini reddet"
+  },
+  "policy_description_DefaultDownloadDirectory": {
+    "message": "Varsayılan indirme dizini ayarla"
+  },
+  "policy_description_DefaultDownloadDirectory_Label": {
+    "message": "Yerel ana dizin için ${home} kullanabilirsiniz"
+  },
+  "policy_description_DisableAppUpdate": {
+    "message": "Firefox güncellemesini engelle"
+  },
+  "policy_description_DisableBuiltinPDFViewer": {
+    "message": "Yerleşik PDF görüntüleyiciyi devre dışı bırak (pdf.js)"
+  },
+  "policy_description_DisableDeveloperTools": {
+    "message": "Yerleşik geliştirici araçlarını devre dışı bırak"
+  },
+  "policy_description_DisableFeedbackCommands": {
+    "message": "Yardım menüsünde “Geri Bildirim Gönder” ve “Aldatıcı Siteyi Bildir” menü öğelerini devre dışı bırak"
+  },
+  "policy_description_DisableFirefoxAccounts": {
+    "message": "Firefox Sync gibi Firefox Hesabı tabanlı hizmetleri devre dışı bırakın"
+  },
+  "policy_description_DisableFirefoxScreenshots": {
+    "message": "Yerleşik ekran görüntüsü aracını devre dışı bırakma (Firefox Ekran Görüntüleri)"
+  },
+  "policy_description_DisableFirefoxStudies": {
+    "message": "Firefox'un çalışmaları ve bağlamsal özellik önerilerini yüklemesini ve çalıştırmasını engelle"
+  },
+  "policy_description_DisableForgetButton": {
+    "message": "Son tarama geçmişini unutmak için kullanılabilecek “Unut” araç çubuğu düğmesini devre dışı bırakın"
+  },
+  "policy_description_DisableFormHistory": {
+    "message": "Formu ve arama çubuğu geçmişini devre dışı bırak"
+  },
+  "policy_description_DisableMasterPasswordCreation": {
+    "message": "Ana şifre özelliğini devre dışı bırak"
+  },
+  "policy_description_DisablePasswordReveal": {
+    "message": "Kayıtlı girişlerde şifrelerin gösterilmesine izin verme"
+  },
+  "policy_description_DisablePocket": {
+    "message": "Mozilla'nın bir hizmeti olan Pocket'in entegrasyonunu devre dışı bırakın"
+  },
+  "policy_description_DisablePrivateBrowsing": {
+    "message": "Gizli gezinme modunu devre dışı bırak"
+  },
+  "policy_description_DisableProfileImport": {
+    "message": "Kütüphanedeki “Başka bir tarayıcıdan veri aktar” menü öğesini devre dışı bırak"
+  },
+  "policy_description_DisableProfileRefresh": {
+    "message": "about:support için “Firefox'u Yenile” düğmesini devre dışı bırak"
+  },
+  "policy_description_DisableSafeMode": {
+    "message": "Eklentiler devre dışı bırakıldığında Firefox'u yeniden başlatma menü öğesini devre dışı bırakın (güvenli mod)"
+  },
+  "policy_description_DisableSecurityBypass": {
+    "message": "Belirli güvenlik uyarılarının atlanmasını engelle"
+  },
+  "policy_description_DisableSecurityBypass_InvalidCertificate": {
+    "message": "Geçersiz bir sertifika gösterildiğinde istisna eklemeyi engelle"
+  },
+  "policy_description_DisableSecurityBypass_InvalidCertificate_false": {
+    "message": "izin ver"
+  },
+  "policy_description_DisableSecurityBypass_InvalidCertificate_true": {
+    "message": "engelle"
+  },
+  "policy_description_DisableSecurityBypass_SafeBrowsing": {
+    "message": "Uyarının atlanmasını ve kötü amaçlı bir web sitesini ziyaret etmesini engelle"
+  },
+  "policy_description_DisableSecurityBypass_SafeBrowsing_false": {
+    "message": "izin ver"
+  },
+  "policy_description_DisableSecurityBypass_SafeBrowsing_true": {
+    "message": "engelle"
+  },
+  "policy_description_DisableSetDesktopBackground": {
+    "message": "Görüntüyü masaüstü arka planı olarak ayarlama özelliğini devre dışı bırak"
+  },
+  "policy_description_DisableSystemAddonUpdate": {
+    "message": "Firefox'un sistem eklentilerini yüklemesini ve güncellemesini engelle"
+  },
+  "policy_description_DisableTelemetry": {
+    "message": "Firefox'un Mozilla'ya (telemetri) teknik ve etkileşim verileri göndermesini engelle"
+  },
+  "policy_description_DisplayBookmarksToolbar": {
+    "message": "Yer imleri araç çubuğunu varsayılan olarak göster"
+  },
+  "policy_description_DisplayMenuBar": {
+    "message": "Menü çubuğunu varsayılan olarak göster"
+  },
+  "policy_description_DNSOverHTTPS": {
+    "message": "HTTPS üzerinden DNS'yi yapılandırma"
+  },
+  "policy_description_DNSOverHTTPS_Enabled_false": {
+    "message": "HTTPS üzerinden DNS'yi devre dışı bırak"
+  },
+  "policy_description_DNSOverHTTPS_Enabled_true": {
+    "message": "HTTPS üzerinden DNS'ye izin ver"
+  },
+  "policy_description_DNSOverHTTPS_ProviderURL": {
+    "message": "Sağlayıcı URL"
+  },
+  "policy_description_DontCheckDefaultBrowser": {
+    "message": "Başlangıçta varsayılan tarayıcı kontrolünü yapılandırma"
+  },
+  "policy_description_DontCheckDefaultBrowser_options_false": {
+    "message": "Başlangıçta Firefox'un varsayılan tarayıcı olup olmadığını kontrol et"
+  },
+  "policy_description_DontCheckDefaultBrowser_options_true": {
+    "message": "Başlangıçta Firefox'un varsayılan tarayıcı olup olmadığını kontrol etme"
+  },
+  "policy_description_DownloadDirectory": {
+    "message": "İndirme dizinini ayarlama ve kilitleme"
+  },
+  "policy_description_DownloadDirectory_Label": {
+    "message": "Yerel ana dizin için $ {home} kullanabilirsiniz"
+  },
+  "policy_description_EnableTrackingProtection": {
+    "message": "Gelişmiş İzleme Koruması"
+  },
+  "policy_description_EnableTrackingProtection_Cryptomining": {
+    "message": "şifreleyicileri engelle (Firefox 70+, Firefox ESR 68.2+)"
+  },
+  "policy_description_EnableTrackingProtection_Fingerprinting": {
+    "message": "parmak izi okuyucuları engelle (Firefox 70+, Firefox ESR 68.2+)"
+  },
+  "policy_description_EnableTrackingProtection_Value": {
+    "message": "İçerik İzleme"
+  },
+  "policy_description_Extensions": {
+    "message": "Uzantıları yükleme, kaldırma veya kilitleme"
+  },
+  "policy_description_Extensions_Deprecated": {
+    "message": "Kullanımdan kaldırıldı. Aşağıdaki politika kullanılmalıdır."
+  },
+  "policy_description_Extensions_Install": {
+    "message": "Eklentileri yükleyin. URL'leri veya yolları belirleyebilirsiniz."
+  },
+  "policy_description_Extensions_Install_URL_or_Path": {
+    "message": "URL or Yol"
+  },
+  "policy_description_Extensions_Locked": {
+    "message": "Kilitli uzantılar devre dışı bırakılamaz veya kaldırılamaz. Lütfen uzantı kimliklerini belirtin."
+  },
+  "policy_description_Extensions_Locked_ID": {
+    "message": "Eklenti ID"
+  },
+  "policy_description_Extensions_Uninstall": {
+    "message": "Eklentileri kaldırın. Lütfen uzantı kimliklerini belirtin."
+  },
+  "policy_description_Extensions_Uninstall_ID": {
+    "message": "Eklenti ID"
+  },
+  "policy_description_ExtensionSettings": {
+    "message": "Eklentilerin yüklenmesini ve kaldırılmasını yönet"
+  },
+  "policy_description_ExtensionSettings_allowed_types": {
+    "message": "İzin verilen eklenti türleri"
+  },
+  "policy_description_ExtensionSettings_allowed_types_dictionary": {
+    "message": "Sözlükler"
+  },
+  "policy_description_ExtensionSettings_allowed_types_extension": {
+    "message": "Uzantılar"
+  },
+  "policy_description_ExtensionSettings_allowed_types_langpack": {
+    "message": "Dil paketleri"
+  },
+  "policy_description_ExtensionSettings_allowed_types_theme": {
+    "message": "Temalar"
+  },
+  "policy_description_ExtensionSettings_blocked_install_message_caption_all": {
+    "message": "Engellenen bir eklentiyi yüklemeye çalışırken kullanıcıya gösterilecek hata mesajı"
+  },
+  "policy_description_ExtensionSettings_blocked_install_message_caption_single": {
+    "message": "Engellenen eklentiyi yüklemeye çalışırken kullanıcıya gösterilecek hata mesajı"
+  },
+  "policy_description_ExtensionSettings_blocked_install_message_label": {
+    "message": "hata mesajı"
+  },
+  "policy_description_ExtensionSettings_extra_caption_post": {
+    "message": "Ayrı eklentiler için yapılandırma"
+  },
+  "policy_description_ExtensionSettings_extra_caption_pre": {
+    "message": "Tüm eklentiler için yapılandırma"
+  },
+  "policy_description_ExtensionSettings_install_sources": {
+    "message": "İzin verilen kurulum kaynakları. Hem * .xpi dosyasının konumuna hem de indirme işleminin başlatıldığı sayfaya izin verilmelidir."
+  },
+  "policy_description_ExtensionSettings_install_url_caption": {
+    "message": "URL yükleyin. Yerel dosya sisteminden yükleme yapıyorsanız, dosya:/// URI olarak kullanın"
+  },
+  "policy_description_ExtensionSettings_installation_mode": {
+    "message": "kurulum"
+  },
+  "policy_description_ExtensionSettings_installation_mode_allowed_all": {
+    "message": "eklentilerin kullanıcı tarafından yüklenmesine izin ver"
+  },
+  "policy_description_ExtensionSettings_installation_mode_allowed_single": {
+    "message": "bu eklentinin kullanıcı tarafından yüklenmesine izin ver"
+  },
+  "policy_description_ExtensionSettings_installation_mode_blocked_all": {
+    "message": "kullanıcı tarafından eklentilerin yüklenmesine izin verilmez ve önceden yüklenmiş eklentiler cihazdan kaldırılır"
+  },
+  "policy_description_ExtensionSettings_installation_mode_blocked_single": {
+    "message": "bu eklentinin kullanıcı tarafından kurulmasına izin verilmez ve eklenti zaten yüklenmişse cihazdan kaldırılır"
+  },
+  "policy_description_ExtensionSettings_installation_mode_force_installed": {
+    "message": "eklenti otomatik olarak yüklenir ve kullanıcı tarafından kaldırılamaz (bir yükleme URL'si gerektirir)"
+  },
+  "policy_description_ExtensionSettings_installation_mode_normal_installed": {
+    "message": "eklenti otomatik olarak yüklenir ancak kullanıcı tarafından devre dışı bırakılabilir (yükleme URL'si gerektirir)"
+  },
+  "policy_description_ExtensionSettings_Label_Key": {
+    "message": "Eklenti ID"
+  },
+  "policy_description_ExtensionUpdate": {
+    "message": "Otomatik uzantı güncellemelerini etkinleştirme veya devre dışı bırakma"
+  },
+  "policy_description_ExtensionUpdate_options_false": {
+    "message": "Otomatik uzantı güncellemelerini devre dışı bırak"
+  },
+  "policy_description_ExtensionUpdate_options_true": {
+    "message": "Otomatik uzantı güncellemelerini etkinleştir"
+  },
+  "policy_description_FirefoxHome": {
+    "message": "Firefox ana sayfasını özelleştirin"
+  },
+  "policy_description_FirefoxHome_Search": {
+    "message": "Web Arama"
+  },
+  "policy_description_FirefoxHome_TopSites": {
+    "message": "Önerilen Siteler"
+  },
+  "policy_description_FirefoxHome_Highlights": {
+    "message": "Vurgulamalar"
+  },
+  "policy_description_FirefoxHome_Pocket": {
+    "message": "Pocket Önerileri"
+  },
+  "policy_description_FirefoxHome_Snippets": {
+    "message": "Parçacıklar"
+  },
+  "policy_description_FlashPlugin": {
+    "message": "Flash eklentisi kullanımına izin verme veya reddetme"
+  },
+  "policy_description_FlashPlugin_Allow": {
+    "message": "Flash tamamen devre dışı bırakılmadığı sürece bu URL'ler için Flash eklentisini varsayılan olarak etkinleştirin"
+  },
+  "policy_description_FlashPlugin_Block": {
+    "message": "Bu URL'ler için Flash eklentisini engelleyin"
+  },
+  "policy_description_FlashPlugin_Default": {
+    "message": "Flash'ı her zaman etkinleştir veya devre dışı bırak"
+  },
+  "policy_description_FlashPlugin_Default_false": {
+    "message": "Flash'ı her zaman devre dışı bırak"
+  },
+  "policy_description_FlashPlugin_Default_true": {
+    "message": "Flash'ı her zaman etkinleştir"
+  },
+  "policy_description_HardwareAcceleration": {
+    "message": "Donanım hızlandırmayı devre dışı bırak"
+  },
+  "policy_description_Homepage": {
+    "message": "Giriş sayfası ayarla"
+  },
+  "policy_description_Homepage_Additional": {
+    "message": "Ek URL'ler"
+  },
+  "policy_description_Homepage_StartPage": {
+    "message": "Firefox'u şununla başlat…"
+  },
+  "policy_description_Homepage_StartPage_Homepage": {
+    "message": "… ana sayfa olarak tanımlanan web sitesi"
+  },
+  "policy_description_Homepage_StartPage_None": {
+    "message": "… boş sayfa"
+  },
+  "policy_description_Homepage_StartPage_Previous_Session": {
+    "message": "… önceki tarayıcı oturumu"
+  },
+  "policy_description_InstallAddonsPermission": {
+    "message": "Web sitelerinin eklenti yüklemesine izin ver"
+  },
+  "policy_description_InstallAddonsPermission_Allow": {
+    "message": "Eklentilerin yüklenmesi devre dışı bırakılmadığı sürece uzantıları yükleyebilen web siteleri (addons.mozilla.org'a zaten izin verilir)"
+  },
+  "policy_description_InstallAddonsPermission_Default_false": {
+    "message": "eklentiler kullanıcı tarafından yüklenemez"
+  },
+  "policy_description_InstallAddonsPermission_Default_true": {
+    "message": "eklentiler kullanıcı tarafından yüklenebilir"
+  },
+  "policy_description_InstallAddonsPermission_Deprecated": {
+    "message": "Kullanımdan kaldırıldı. Aşağıdaki politika kullanılmalıdır."
+  },
+  "policy_description_LocalFileLinks": {
+    "message": "Belirli web sitelerinin yerel dosyalara bağlanmasına izin ver"
+  },
+  "policy_description_NetworkPrediction": {
+    "message": "Ağ tahminini etkinleştirme veya devre dışı bırakma (DNS önyükleme)"
+  },
+  "policy_description_NetworkPrediction_options_false": {
+    "message": "Ağ tahminini devre dışı bırak (DNS önyükleme)"
+  },
+  "policy_description_NetworkPrediction_options_true": {
+    "message": "Ağ tahminine izin ver (DNS önyükleme)"
+  },
+  "policy_description_NewTabPage": {
+    "message": "Yeni bir sekme açarken görüntülenen sayfayı etkinleştirme veya devre dışı bırakma"
+  },
+  "policy_description_NoDefaultBookmarks": {
+    "message": "Akıllı yer imleri (en çok ziyaret edilen, en son etiketler) dahil olmak üzere Firefox ile birlikte verilen varsayılan yer imlerini oluşturmayın.Not: Bu politika yalnızca profilin ilk çalıştırılmasından önce kullanıldığında geçerlidir"
+  },
+  "policy_description_OfferToSaveLogins": {
+    "message": "Firefox'un giriş bilgilerini ve şifreleri hatırlamasına izin verin (değiştirilemez)"
+  },
+  "policy_description_OfferToSaveLoginsDefault": {
+    "message": "Firefox'un giriş bilgilerini ve şifreleri hatırlamasına izin verin (kullanıcı tarafından değiştirilebilir)"
+  },
+  "policy_description_OverrideFirstRunPage": {
+    "message": "İlk çalıştırma sayfasını kapatın. İlk çalıştırma sayfasını devre dışı bırakmak istiyorsanız bu politikayı boş bırakın."
+  },
+  "policy_description_OverridePostUpdatePage": {
+    "message": "Güncelleme sonrası “Yenilikler” sayfasını kapatın. Güncelleme sonrası sayfasını devre dışı bırakmak istiyorsanız bu politikayı boş bırakın."
+  },
+  "policy_description_PasswordManagerEnabled": {
+    "message": "Parola yöneticisini tamamen etkinleştirme veya devre dışı bırakma"
+  },
+  "policy_description_Permissions": {
+    "message": "Konum, kamera, mikrofon ve bildirimler için izinleri yapılandırma"
+  },
+  "policy_description_Permissions_Camera": {
+    "message": "Kamera"
+  },
+  "policy_description_Permissions_Camera_Allow": {
+    "message": "Bu URL'ler için erişime izin ver"
+  },
+  "policy_description_Permissions_Camera_Block": {
+    "message": "Bu URL'ler için reddet"
+  },
+  "policy_description_Permissions_Camera_BlockNewRequests": {
+    "message": "Kameranıza erişmenizi isteyen yeni istekleri engelleyin"
+  },
+  "policy_description_Permissions_Location": {
+    "message": "Konum"
+  },
+  "policy_description_Permissions_Location_Allow": {
+    "message": "Bu URL'ler için erişime izin ver"
+  },
+  "policy_description_Permissions_Location_Block": {
+    "message": "Bu URL'ler için erişimi engelle"
+  },
+  "policy_description_Permissions_Location_BlockNewRequests": {
+    "message": "Konumunuza erişmek isteyen yeni istekleri engelleyin"
+  },
+  "policy_description_Permissions_Microphone": {
+    "message": "Mikrofon"
+  },
+  "policy_description_Permissions_Microphone_Allow": {
+    "message": "Bu URL'ler için erişime izin ver"
+  },
+  "policy_description_Permissions_Microphone_Block": {
+    "message": "Bu URL'ler için erişimi engelle"
+  },
+  "policy_description_Permissions_Microphone_BlockNewRequests": {
+    "message": "Mikrofonunuza erişmek isteyen yeni istekleri engelleyin"
+  },
+  "policy_description_Permissions_Notifications": {
+    "message": "Bildirimler"
+  },
+  "policy_description_Permissions_Notifications_Allow": {
+    "message": "Bu URL'ler için bildirimlere izin ver"
+  },
+  "policy_description_Permissions_Notifications_Block": {
+    "message": "Bu URL'ler için bildirimleri engelle"
+  },
+  "policy_description_Permissions_Notifications_BlockNewRequests": {
+    "message": "Bildirimlere için izin istekleri engelle"
+  },
+  "policy_description_PopupBlocking": {
+    "message": "Açılır pencere kullanıma izin verme veya reddetme"
+  },
+  "policy_description_PopupBlocking_Allow": {
+    "message": "Açılır pencerelere izin verilen alanlar"
+  },
+  "policy_description_PopupBlocking_Default_false": {
+    "message": "Açılır pencereler varsayılan olarak engellenmez"
+  },
+  "policy_description_PopupBlocking_Default_true": {
+    "message": "Açılır pencereler varsayılan olarak engellenir"
+  },
+  "policy_description_Preference_browser_cache_disk_enable": {
+    "message": "Önbelleği sabit diskte saklamayı Etkinleştir/Devre dışı bırak"
+  },
+  "policy_description_Preference_browser_cache_disk_parent_directory": {
+    "message": "Disk önbelleğinin konumunu değiştirme"
+  },
+  "policy_description_Preference_browser_cache_disk_parent_directory_label": {
+    "message": "Yol"
+  },
+  "policy_description_Preference_browser_fixup_dns_first_for_single_words": {
+    "message": "Adres çubuğundaki tek kelimeleri doğrudan arama motoruna değil, önce DNS'ye gönderin"
+  },
+  "policy_description_Preference_browser_search_update": {
+    "message": "Arama motorlarını güncelle"
+  },
+  "policy_description_Preference_browser_tabs_warnOnClose": {
+    "message": "Tarayıcı kapatılırken uyarı göster"
+  },
+  "policy_description_Preference_browser_urlbar_suggest_bookmark": {
+    "message": "Adres çubuğunu kullanırken yer imleri öner"
+  },
+  "policy_description_Preference_browser_urlbar_suggest_history": {
+    "message": "Adres çubuğunu kullanırken göz atma geçmişini öner"
+  },
+  "policy_description_Preference_browser_urlbar_suggest_openpage": {
+    "message": "Adres çubuğunu kullanırken açık sekmeler öner"
+  },
+  "policy_description_Preference_datareporting_policy_dataSubmissionPolicyBypassNotification": {
+    "message": "İlk çalıştırmada gizlilik politikası sekmesini göster"
+  },
+  "policy_description_Preference_dom_disable_window_flip": {
+    "message": "Web sitelerinin pencere odağıyla oynamasına izin ver"
+  },
+  "policy_description_Preference_dom_disable_window_move_resize": {
+    "message": "Web sitelerinin pencereleri taşımasına ve yeniden boyutlandırmasına izin ver"
+  },
+  "policy_description_Preference_dom_event_contextmenu_enabled": {
+    "message": "Web sitesinin bağlam menüsünü geçersiz kılmasına izin ver"
+  },
+  "policy_description_Preference_dom_keyboardevent_keypress_hack_dispatch_non_printable_keys_addl": {
+    "message": "Web standartları: Tuşa basma olayıyla ilgili eski davranışları ve belirli etki alanları için yazdırılamayan anahtarları hatırla"
+  },
+  "policy_description_Preference_dom_keyboardevent_keypress_hack_use_legacy_keycode_and_charcode_addl": {
+    "message": "Web standartları: Belirli alanlar için keyCode ve charCode ile ilgili eski davranışları hatırla"
+  },
+  "policy_description_Preference_extensions_getAddons_showPane": {
+    "message": "Eklenti yöneticisinde öneriler sekmesini göster"
+  },
+  "policy_description_Preference_media_gmp_gmpopenh264_enabled": {
+    "message": "WebRTC iletişimi için OpenH264 eklentisini indirin"
+  },
+  "policy_description_Preference_media_gmp_widevinecdm_enabled": {
+    "message": "DRM ile akış için Widevine eklentisini indirin"
+  },
+  "policy_description_Preference_network_dns_disableIPv6": {
+    "message": "IPv6 DNS aramaları yapma"
+  },
+  "policy_description_Preference_network_IDN_show_punycode": {
+    "message": "Uluslararası alan adlarının punycode sürümünü görüntüle"
+  },
+  "policy_description_Preference_places_history_enabled": {
+    "message": "Tarama geçmişini hatırla"
+  },
+  "policy_description_Preference_privacy_file_unique_origin": {
+    "message": "Yerel dosyaların diğer yerel dosyalara erişmesine izin ver (güvenlik sorunu!)"
+  },
+  "policy_description_Preference_security_default_personal_cert": {
+    "message": "Kullanıcıya varsayılan kişisel sertifikayı seçmesini sor"
+  },
+  "policy_description_Preference_security_default_personal_cert_ask_every_time": {
+    "message": "her zaman sor"
+  },
+  "policy_description_Preference_security_default_personal_cert_select_automatically": {
+    "message": "otomatik olarak seç"
+  },
+  "policy_description_Preference_security_ssl_errorReporting_enabled": {
+    "message": "Mozilla'ya TLS hatalarının gönderilmesine izin ver"
+  },
+  "policy_description_Preference_ui_key_menuAccessKeyFocuses": {
+    "message": "Alt tuşu menü çubuğunu göstermek için kullanılabilir"
+  },
+  "policy_description_PromptForDownloadLocation": {
+    "message": "İndirmeden önce dosyayı nereye kaydedeceğini sor"
+  },
+  "policy_description_Proxy": {
+    "message": "İnternet proxy erişimini yapılandırma"
+  },
+  "policy_description_Proxy_AutoConfigURL": {
+    "message": "Otomatik proxy yapılandırma URL'si"
+  },
+  "policy_description_Proxy_AutoLogin": {
+    "message": "Kimlik doğrulama istemi"
+  },
+  "policy_description_Proxy_AutoLogin_false": {
+    "message": "kimlik doğrulama istemi kapalı"
+  },
+  "policy_description_Proxy_AutoLogin_true": {
+    "message": "kimlik doğrulama istemi sorma"
+  },
+  "policy_description_Proxy_HTTPProxy": {
+    "message": "HTTP Proxy. Bağlantı noktası numaralarını yapılandırmak için lütfen “:” ve ardından bağlantı noktası numarasını ekleyin"
+  },
+  "policy_description_Proxy_Mode_autoConfig": {
+    "message": "otomatik proxy yapılandırma URL'si"
+  },
+  "policy_description_Proxy_Mode_autoDetect": {
+    "message": "bu ağ için proxy ayarlarını otomatik algıla"
+  },
+  "policy_description_Proxy_Mode_manual": {
+    "message": "manuel proxy yapılandırması"
+  },
+  "policy_description_Proxy_Mode_none": {
+    "message": "proxy kullanma"
+  },
+  "policy_description_Proxy_Mode_system": {
+    "message": "sistem proxy ayarlarını kullan"
+  },
+  "policy_description_Proxy_FTPProxy": {
+    "message": "FTP Proxy. Bağlantı noktası numaralarını yapılandırmak için lütfen “:” ve ardından bağlantı noktası numarasını ekleyin"
+  },
+  "policy_description_Proxy_Passthrough": {
+    "message": "… için proxy yok"
+  },
+  "policy_description_Proxy_SOCKSProxy": {
+    "message": "SOCKS Ana Bilgisayar. Bağlantı noktası numaralarını yapılandırmak için lütfen “:” ve ardından bağlantı noktası numarasını ekleyin"
+  },
+  "policy_description_Proxy_SOCKSVersion_v4": {
+    "message": "SOCKS v4"
+  },
+  "policy_description_Proxy_SOCKSVersion_v5": {
+    "message": "SOCKS v5"
+  },
+  "policy_description_Proxy_SSLProxy": {
+    "message": "SSL Proxy. Bağlantı noktası numaralarını yapılandırmak için lütfen “:” ve ardından bağlantı noktası numarasını ekleyin"
+  },
+  "policy_description_Proxy_UseHTTPProxyForAllProtocols_false": {
+    "message": "bu proxy sunucusunu tüm protokoller için kullanma"
+  },
+  "policy_description_Proxy_UseHTTPProxyForAllProtocols_true": {
+    "message": "bu proxy sunucusunu tüm protokoller için kullan"
+  },
+  "policy_description_Proxy_UseProxyForDNS": {
+    "message": "SOCKS v5 kullanırken proxy DNS"
+  },
+  "policy_description_Proxy_UseProxyForDNS_false": {
+    "message": "Proxy DNS kullanma"
+  },
+  "policy_description_Proxy_UseProxyForDNS_true": {
+    "message": "Proxy DNS kullan"
+  },
+  "policy_description_RequestedLocales": {
+    "message": "Firefox'un arayüz dilini değiştir"
+  },
+  "policy_description_RequestedLocales_Requirement": {
+    "message": "İlgili dil paketi kurulmalıdır. İşletim sisteminin dilini kullanmak için boş bırakın"
+  },
+  "policy_description_RequestedLocales_Value": {
+    "message": "Dil Kodu"
+  },
+  "policy_description_SanitizeOnShutdown": {
+    "message": "Kapatma sırasında tarayıcı verilerini temizle"
+  },
+  "policy_description_SanitizeOnShutdown_Cache": {
+    "message": "Önbellek"
+  },
+  "policy_description_SanitizeOnShutdown_Cookies": {
+    "message": "Çerezler"
+  },
+  "policy_description_SanitizeOnShutdown_Downloads": {
+    "message": "İndirme Geçmişi"
+  },
+  "policy_description_SanitizeOnShutdown_FormData": {
+    "message": "Form ve Arama Geçmişi"
+  },
+  "policy_description_SanitizeOnShutdown_History": {
+    "message": "Arama geçmişi"
+  },
+  "policy_description_SanitizeOnShutdown_Sessions": {
+    "message": "Aktif Girişler"
+  },
+  "policy_description_SanitizeOnShutdown_SiteSettings": {
+    "message": "Site Ayarları"
+  },
+  "policy_description_SanitizeOnShutdown_OfflineApps": {
+    "message": "Çevrimdışı Website Verileri"
+  },
+  "policy_description_SearchBar": {
+    "message": "Arama çubuğunun bütünleşik veya ayrı olması durumu"
+  },
+  "policy_description_SearchBar_options_separate": {
+    "message": "arama çubuğu ayrı olsun"
+  },
+  "policy_description_SearchBar_options_unified": {
+    "message": "adres çubuğuna bütünleşik olsun"
+  },
+  "policy_description_SearchEngines": {
+    "message": "Firefox'ta yerleşik arama motorlarının listesini değiştir"
+  },
+  "policy_description_SearchEngines_Add": {
+    "message": "Arama motoru ekle"
+  },
+  "policy_description_SearchEngines_Add_Alias": {
+    "message": "Motora erişmek için kullanılabilecek takma ad"
+  },
+  "policy_description_SearchEngines_Add_Description": {
+    "message": "Açıklama"
+  },
+  "policy_description_SearchEngines_Add_IconURL": {
+    "message": "Simge URL'si veya data:image…"
+  },
+  "policy_description_SearchEngines_Add_Method": {
+    "message": "İstek Yöntemi"
+  },
+  "policy_description_SearchEngines_Add_Method_GET": {
+    "message": "GET"
+  },
+  "policy_description_SearchEngines_Add_Method_POST": {
+    "message": "POST"
+  },
+  "policy_description_SearchEngines_Add_Name": {
+    "message": "Ad"
+  },
+  "policy_description_SearchEngines_Add_PostData": {
+    "message": "POST Verileri (POST yöntemi seçildiyse; örneğin q={searchTerms} ve anotherParam=yes)"
+  },
+  "policy_description_SearchEngines_Add_SuggestURLTemplate": {
+    "message": "Öneriler için URL. Lütfen arama terimi için yer tutucu olarak {searchTerms} kullanın"
+  },
+  "policy_description_SearchEngines_Add_URL": {
+    "message": "Aramalar için URL. Lütfen arama terimi için yer tutucu olarak {searchTerms} kullanın"
+  },
+  "policy_description_SearchEngines_Default": {
+    "message": "Varsayılan arama motorunun adı"
+  },
+  "policy_description_SearchEngines_DefaultPrivate": {
+    "message": "Özel pencereler için varsayılan arama motorunun adı(Firefox Pre-Release 71+, Firefox ESR 78+)"
+  },
+  "policy_description_SearchEngines_PreventInstalls": {
+    "message": "Yeni arama motorlarının kurulumunu engelle"
+  },
+  "policy_description_SearchEngines_PreventInstalls_false": {
+    "message": "kurulumlara izin ver"
+  },
+  "policy_description_SearchEngines_PreventInstalls_true": {
+    "message": "kurulumları engelle"
+  },
+  "policy_description_SearchEngines_Remove": {
+    "message": "Arama motor(ları) kaldır"
+  },
+  "policy_description_SearchEngines_Remove_Name": {
+    "message": "Ad"
+  },
+  "policy_description_SearchSuggestEnabled": {
+    "message": "Arama önerilerini etkinleştirme veya devre dışı bırakma"
+  },
+  "policy_description_SecurityDevices": {
+    "message": "PKCS # 11 modüllerini ekleyin"
+  },
+  "policy_description_SecurityDevices_label_key": {
+    "message": "Cihaz adı"
+  },
+  "policy_description_SecurityDevices_label_value": {
+    "message": "Cihaz için kitaplığın yolu"
+  },
+  "policy_description_SSLVersionMax": {
+    "message": "Desteklenen en yüksek TLS sürümü"
+  },
+  "policy_description_SSLVersionMin": {
+    "message": "Desteklenen en düşük TLS sürümü"
+  },
+  "policy_description_SupportMenu": {
+    "message": "Yardım menüsüne özel destek menüsü öğesi ekle"
+  },
+  "policy_description_SupportMenu_AccessKey": {
+    "message": "Erişim tuşu (tek bir karakter!)"
+  },
+  "policy_description_SupportMenu_Title": {
+    "message": "Başlık"
+  },
+  "policy_description_WebsiteFilter": {
+    "message": "Web sitelerinin ziyaret edilmesini engeller. Tüm URL'leri engellemek için “<all_urls>” kullanabilirsiniz. Geçerli tüm girişler için bilgi bağlantısına bakın, ancak yalnızca HTTPS ve HTTP desteklenir."
+  },
+  "policy_description_WebsiteFilter_Block": {
+    "message": "Aşağıdaki URL'leri engelleyin"
+  },
+  "policy_description_WebsiteFilter_Exceptions": {
+    "message": "İstisnalar"
+  },
+  "policy_label_default": {
+    "message": "varsayılan"
+  },
+  "requirement_windows_or_linux": {
+    "message": "yalnızca Windows ve Linux'ta çalışır"
+  },
+  "save_dialog_btn_cancel": {
+    "message": "İptal"
+  },
+  "save_dialog_btn_ok": {
+    "message": "Yapılandırmayı Kaydet"
+  },
+  "save_dialog_form_name": {
+    "message": "Ad"
+  },
+  "save_dialog_window_title": {
+    "message": "Yapılandırmayı Kaydet"
+  },
+  "title_add_row": {
+    "message": "satır ekle"
+  },
+  "title_apply_configuration": {
+    "message": "Yapılandırma Yükle"
+  },
+  "title_remove_configuration": {
+    "message": "Yapılandırmayı Kaldır"
+  },
+  "title_remove_row": {
+    "message": "satır sil"
+  },
+  "version_or_higher": {
+    "message": "veya daha yüksek"
+  },
+  "version_required": {
+    "message": "en düşük gereken"
+  }
+}
